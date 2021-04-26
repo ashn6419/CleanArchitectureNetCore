@@ -1,0 +1,2 @@
+# CleanArchitectureNetCore
+Clean Architecture .NetCore 
