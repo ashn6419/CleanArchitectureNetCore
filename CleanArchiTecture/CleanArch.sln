@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationCore", "ApplicationCore", "{2DD67ACC-FF84-45AF-8425-59BE7EF05D48}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{2DD67ACC-FF84-45AF-8425-59BE7EF05D48}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{874B0AB3-AEBE-431D-B789-B9646DAE1D71}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Domain", "CleanArch.Domain\CleanArch.Domain.csproj", "{E9E4AC5A-D569-4CF0-B5DE-B2B37784BFDB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{709FDADE-4026-4544-AA28-9776BE98DED2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{97AE643E-2A8E-4D5C-80E3-DDE31E70598D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{709FDADE-4026-4544-AA28-9776BE98DED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{709FDADE-4026-4544-AA28-9776BE98DED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{709FDADE-4026-4544-AA28-9776BE98DED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97AE643E-2A8E-4D5C-80E3-DDE31E70598D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AE643E-2A8E-4D5C-80E3-DDE31E70598D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AE643E-2A8E-4D5C-80E3-DDE31E70598D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AE643E-2A8E-4D5C-80E3-DDE31E70598D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{F7176C94-71E2-44B6-859C-2A7CEC688912} = {36A11681-AEA3-4A20-945F-A6677797DA8E}
 		{E9E4AC5A-D569-4CF0-B5DE-B2B37784BFDB} = {874B0AB3-AEBE-431D-B789-B9646DAE1D71}
 		{709FDADE-4026-4544-AA28-9776BE98DED2} = {A3A714E8-9722-4405-A711-47DC1BE5DDC3}
+		{97AE643E-2A8E-4D5C-80E3-DDE31E70598D} = {2DD67ACC-FF84-45AF-8425-59BE7EF05D48}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B8AA4803-7C42-4613-8E8E-C799B5D8D726}
