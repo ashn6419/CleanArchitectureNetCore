@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CleanArch.Infra.Bus
 {
-    class InMemoryBus
+  public  class InMemoryBus
     {
     }
 }
