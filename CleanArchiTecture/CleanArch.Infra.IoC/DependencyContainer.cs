@@ -16,7 +16,7 @@ namespace CleanArch.Infra.IoC
         public static void RegisterServices(IServiceCollection service)
         {
             //Application
-            service.AddScoped<ICourceService, CourseService>();
+            service.AddScoped<ICourseService, CourseService>();
 
             //Infra.Data
             service.AddScoped<ICourseRepository, CourseRepository>();
