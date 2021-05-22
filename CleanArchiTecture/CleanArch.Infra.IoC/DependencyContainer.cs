@@ -21,7 +21,7 @@ namespace CleanArch.Infra.IoC
     {
         public static void RegisterServices(IServiceCollection service)
         {
-            //Domain  InMemoryBus MediatR
+           // Domain InMemoryBus MediatR
             service.AddScoped<IMediatorHandler, InMemoryBus>();
 
             //domain Handlers
